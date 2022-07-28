@@ -1,7 +1,7 @@
 ---
 name: Custom issue template
 about: Implement Issue Template
-title: "[Implete]"
+title: "[Implement]"
 labels: ''
 assignees: ''
 
@@ -12,6 +12,6 @@ assignees: ''
 ## 🗒이슈 설명
 
 ## ✔️진행 과정
--[] content
--[] content
--[] content
+- [ ] content
+- [ ] content
+- [ ] content
