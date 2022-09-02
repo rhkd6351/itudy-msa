@@ -1,1 +1,24 @@
 rootProject.name = 'user-service'
+
+
+include 'front:api'
+findProject(':front:api')?.name = 'api'
+
+include 'persistence:user'
+findProject(':persistence:user')?.name = 'user'
+
+include 'front:service'
+findProject(':front:service')?.name = 'service'
+
+include 'front:core'
+findProject(':front:core')?.name = 'core'
+
+include 'management:api'
+findProject(':management:api')?.name = 'api'
+
+include 'management:core'
+findProject(':management:core')?.name = 'core'
+
+include 'management:service'
+findProject(':management:service')?.name = 'service'
+
