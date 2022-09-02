@@ -11,4 +11,8 @@ public interface UserRepository extends JpaRepository<UserVO, Long> {
 
     public Optional<UserVO> findByRefreshToken(String refreshToken);
 
+    public Optional<UserVO> findByEmail(String email);
+
+    public boolean existsByEmail(String email);
+
 }
